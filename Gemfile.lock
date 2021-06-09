@@ -9,6 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.5)
+    eventmachine (1.2.5-x64-mingw32)
     ffi (1.9.23)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -53,15 +54,22 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   bundler
   jekyll
   jekyll-paginate
   tzinfo-data
+  webrick (~> 1.7)
 
 BUNDLED WITH
-   1.16.0.pre.3
+   2.2.19
