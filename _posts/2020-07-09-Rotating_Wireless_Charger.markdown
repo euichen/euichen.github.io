@@ -25,6 +25,8 @@ categories: Arduino
 
 + ## 과제 계획 및 예상도 만들기
 
+![]({{site.baseurl}}/images/Charger/wmc_c.png)
+<br><br><br><br>
 
 ![]({{site.baseurl}}/images/Charger/plan.png)
 <br><br><br><br>
