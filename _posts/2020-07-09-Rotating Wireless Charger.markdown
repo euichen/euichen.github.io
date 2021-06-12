@@ -11,51 +11,51 @@ categories: Arduino
 <br><br><br><br>
 
 + ## 재료
-___
+
+
 ![]({{site.baseurl}}/images/Charger/Material.png)
 
 납땝 인두, 열수축 튜브, 나사 기타등등
 <br><br><br><br>
 
-___
+
 # 제작 과정
-___
+
 
 
 + ## 과제 계획 및 예상도 만들기
-___
+
 
 ![]({{site.baseurl}}/images/Charger/plan.png)
 <br><br><br><br>
 
 + ## 필수 해결 과제
-___
+
     + 아두이노가 충전모듈의 신호를 읽을 수 있어야 이 프로젝트가 성공할 수 있다.
 
 ![]({{site.baseurl}}/images/Charger/wmc_c.png)
 <br><br><br><br>
 
 + ## 3d 모델링 및 제작
-___
+
 
 ![]({{site.baseurl}}/images/Charger/3d.png)
 <br><br><br><br>
 
 + ## 모듈 완성
-___
+
 
 ![]({{site.baseurl}}/images/Charger/Module.png)
 <br><br><br><br>
 
 + ## 결합
-___
 
 ![]({{site.baseurl}}/images/Charger/Support.png)
 ![]({{site.baseurl}}/images/Charger/combine.png)
 <br><br><br><br>
 
 + ## 소프트웨어 제작
-___
+
     1. 동작 모드(버튼으로 전환 가능) 
         + 대기 모드
         + 1회전 모드
