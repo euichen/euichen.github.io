@@ -54,13 +54,6 @@ ___
 ![]({{site.baseurl}}/images/Charger/combine.png)
 <br><br><br><br>
 
-+ ## 완성품
-___
-
-![]({{site.baseurl}}/images/Charger/Support.PNG)
-
-<br><br><br><br>
-
 + ## 소프트웨어 제작
 ___
     1. 동작 모드(버튼으로 전환 가능) 
