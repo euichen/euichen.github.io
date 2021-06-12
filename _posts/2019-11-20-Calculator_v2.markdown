@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 진변변환 + 사칙연산 계산기
-image: cal_v2.PNG
+image: cal_v2.png
 date: 2019-11-20 15:35:20 +0200
 tags: [JAVA, exe]
 categories: exe

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 괄호( )가 적용된 사칙연산 계산기
-image: cal.PNG
+image: cal.png
 date: 2019-10-30 13:35:20 +0200
 tags: [JAVA, exe]
 categories: exe

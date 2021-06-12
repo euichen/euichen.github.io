@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WantU(원주민의 음식점 추천 앱 - 원츄) - 장려상
-image: wantu.PNG
+image: wantu.png
 date: 2020-12-11 13:35:20 +0200
 tags: [Android, JAVA, DB, SQLite, Capstone Design, 장려상]
 categories: Android

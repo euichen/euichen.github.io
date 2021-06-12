@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 아두이노를 활용한 회전 무선 충전기 만들기 - 장려상
-image: wmc.PNG
+image: wmc.png
 date: 2020-07-09 13:35:20 +0200
 tags: [Arduino, C++, Capstone Design, 장려상]
 categories: Arduino
