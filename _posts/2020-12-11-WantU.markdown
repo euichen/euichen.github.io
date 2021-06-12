@@ -27,11 +27,14 @@ categories: Android
         + 조건에 맞는 가게중 선택한다.
     + 정보 열람
         + 다향한 정보를 확인한다.
+        
+![]({{site.baseurl}}/images/DB/2.PNG)
 <br><br><br><br>
 
 + ## 결과
 ![]({{site.baseurl}}/images/DB/ing.png)
 <br><br><br><br>
+
 
 + ## 구조도
 ![]({{site.baseurl}}/images/DB/structure.jpg)
