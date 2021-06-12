@@ -30,8 +30,7 @@ categories: Arduino
 <br><br><br><br>
 
 + ## 필수 해결 과제
-
-    + 아두이노가 충전모듈의 신호를 읽을 수 있어야 이 프로젝트가 성공할 수 있다.
+    아두이노가 충전모듈의 신호를 읽을 수 있어야 이 프로젝트가 성공할 수 있다.
 
 ![]({{site.baseurl}}/images/Charger/wmc_c.png)
 <br><br><br><br>
