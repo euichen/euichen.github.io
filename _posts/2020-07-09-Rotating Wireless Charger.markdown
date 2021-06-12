@@ -35,7 +35,7 @@ ___
 ![]({{site.baseurl}}/images/Charger/wmc_c.png)
 <br><br><br><br>
 
-+ ## 3d 모델링
++ ## 3d 모델링 및 제작
 ___
 
 ![]({{site.baseurl}}/images/Charger/3d.png)
