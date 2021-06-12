@@ -30,7 +30,7 @@ categories: Android
 <br><br><br><br>
 
 + ## 결과
-![]({{site.baseurl}}/images/DB/ing.PNG)
+![]({{site.baseurl}}/images/DB/ing.png)
 <br><br><br><br>
 
 + ## 구조도
