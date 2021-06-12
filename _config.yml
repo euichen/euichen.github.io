@@ -1,7 +1,7 @@
 title: Flexton
 description: Flexton is a responsive and ultra-minimal theme for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "euichen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://euichen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:   Park Eui-chen
@@ -9,12 +9,12 @@ author-image:   2.jpg
 author-job:     Student Developer
 author-email:   qkrdmlcks1@naver.com # Add your email for contant form.
 author-twitter: # Add your twitter account
-about-author:   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+about-author:   앱개발 및 제가 필요하다고 생각하는 것을 다양한 방법으로 개발하고자 노력하고 있습니다.
 
 # Social settings
 social-twitter:   
 social-facebook:
-social-github:    github.com/euichen
+social-github:    euichen
 social-pinterest: 
 social-instagram: 
 social-youtube:

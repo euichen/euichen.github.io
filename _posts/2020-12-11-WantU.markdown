@@ -1,0 +1,94 @@
+---
+layout: post
+title: WantU(원주민의 음식점 추천 앱 - 원츄) - 장려상
+image: wantu.PNG
+date: 2020-12-11 13:35:20 +0200
+tags: [Android, JAVA, DB, SQLite, Capstone Design, 장려상]
+categories: Android
+---
+
+
+개발 의도 : 오늘은 무엇을 먹을지 하는 고민에서 벗어날 수 있는 앱을 만들자
+<br><br><br><br>
+
+
+
++ ## 기획 의도 
+![]({{site.baseurl}}/images/DB/1.PNG)
+<br><br><br><br>
+
++ ## 작동 방식
+    + 시작화면
+        + 데이터 갱신하기를 눌러 DB정보를 받는다.
+        + 고르기 버튼을 눌러 선택 화면으로 이동한다.
+    + 선택화면
+        + 원하는 위치, 가격, 종류를 선택한 후 추천받기를 누룬다.
+    + 조건에 맞는 검색
+        + 조건에 맞는 가게중 선택한다.
+    + 정보 열람
+        + 다향한 정보를 확인한다.
+<br><br><br><br>
+
++ ## 결과
+![]({{site.baseurl}}/images/DB/ing.PNG)
+<br><br><br><br>
+
++ ## 구조도
+![]({{site.baseurl}}/images/DB/structure.jpg)
+<br><br><br><br>
+
++ ## 코드 부록
+    + 스피너 구현(작동화면 2)
+
+    ```
+    final String [] 위치모음= {"음식점위치를선택하세요!","흥업","단구","무실","위치","모두"}; //Spinner를사용하여 클릭으로 선택할수있도록구현
+
+    final Spinner mSpinner1 = (Spinner) findViewById(R.id.spinner1) ;
+
+    ArrayAdapter adapter1 = new ArrayAdapter(getApplicationContext(), R.layout.spinner_item, 위치모음); // 데이터
+
+    mSpinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        @Override
+        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {}
+        @Override
+        public void onNothingSelected(AdapterView<?> parent) {}
+        }
+    );
+
+    ```
+
+    + DB를 리스트뷰로 구현(작동화면 3)
+
+    ```
+    public MyCursorAdapter(Context context, int layout, Cursor c, String[] from, int[] to) {
+        super(context, layout, c, from, to);
+        this.c = c; this.layout = layout; this.context = context; this.from = from; this.to = to;
+    }// DB를해석 후 각각의 열마다 ImageView TextView를 통해 바로바로 리스트뷰를 생성
+    //커서를 이용하여 작업
+    public View getView(int pos, View inView, ViewGroup parent) {
+        View v = inView;
+        if (v == null) {
+            LayoutInflater inflater = (LayoutInflater) 
+            context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            v = inflater.inflate(layout, null);
+        }
+        c.moveToPosition(pos);
+        //sql문 데이터 가져오기
+        String struri = c.getString(c.getColumnIndex(from[0]));
+        String txt = c.getString(c.getColumnIndex(from[1]));
+        //가져온 데이터 ImageView TextView를 통해 리스트뷰 생성
+        ImageView imageView = (ImageView) v.findViewById(to[0]);
+        if (struri != null) { imageView.setImageURI(Uri.parse(struri)); }
+        TextView textView = (TextView) v.findViewById(to[1]);
+        if (txt != null) { textView.setText(txt); }
+        return (v);
+    }
+
+    ```
+
+
+
+
+
+
+
