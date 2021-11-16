@@ -2,7 +2,7 @@
 layout: post
 title: 간단한서버를 활용한 사물인터넷을 이용한 스마트 금고
 image: safe.gif
-date: 2020-09-09 13:35:20 +0200
+date: 2021-09-09 13:35:20 +0200
 tags: [라즈베리파이, Flask, AWS, 파이썬, 리눅스, 하드웨어]
 categories: AWS
 ---
